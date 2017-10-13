@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  About, appears as action button -->
+    <item
+        android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:showAsAction="always"
+        android:title="@string/action_about" />
+
+    <!-- Colours, should always be in the overflow -->
+    <item
+        android:id="@+id/action_black"
+        android:title="@string/actionBlack"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_blue"
+        android:title="@string/actionBlue"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_cyan"
+        android:title="@string/actionCyan"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_green"
+        android:title="@string/actionGreen"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_magenta"
+        android:title="@string/actionMagenta"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_red"
+        android:title="@string/actionRed"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_yellow"
+        android:title="@string/actionYellow"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_white"
+        android:title="@string/actionWhite"
+        android:showAsAction="never" />
+</menu>

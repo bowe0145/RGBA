@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/imgColorSwatch"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="17dp"
+    android:gravity="center_vertical|center"
+    android:textAlignment="center"
+    android:textSize="24sp" />
+
+<TextView
+    android:id="@+id/txtViewRed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/txtViewRedText"
+    android:layout_below="@+id/imgColorSwatch"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="53dp" />
+
+<SeekBar
+    android:id="@+id/sbRed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtViewRed"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:id="@+id/txtViewGreen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/sbRed"
+    android:layout_marginTop="36dp"
+    android:text="@string/txtViewGreenText" />
+
+<SeekBar
+    android:id="@+id/sbGreen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtViewGreen"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:id="@+id/txtViewBlue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/sbGreen"
+    android:layout_marginTop="37dp"
+    android:text="@string/txtViewBlueText" />
+
+<SeekBar
+    android:id="@+id/sbBlue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/txtViewBlue"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:id="@+id/txtViewAlpha"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/sbBlue"
+    android:layout_marginTop="40dp"
+    android:text="@string/txtViewAlphaText" />
+
+<SeekBar
+    android:id="@+id/sbAlpha"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/txtViewAlpha" />
+</RelativeLayout>
